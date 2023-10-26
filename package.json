@@ -1,0 +1,19 @@
+{
+  "name": "homework_5-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest –coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandrPetrov89/JavaScript_2-homework_5-1.git"
+  },
+  "author": "Aleksandr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksandrPetrov89/JavaScript_2-homework_5-1/issues"
+  },
+  "homepage": "https://github.com/AleksandrPetrov89/JavaScript_2-homework_5-1#readme"
+}
