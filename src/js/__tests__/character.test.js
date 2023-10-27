@@ -44,3 +44,9 @@ test('Проверка появления ошибки при присвоени
   const mistake = () => new Character('Ivan', 'B');
   expect(mistake).toThrow(new Error('Ошибка при присвоении типа персонажа!'));
 });
+
+test('Проверка присвоения уровня жизни и персонажа', () => {
+  const character = new Character('Ivan', 'Bowman');
+  expect(character.level).toBe(1);
+  expect(character.health).toBe(100);
+});
