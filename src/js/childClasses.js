@@ -1,4 +1,4 @@
-import Character from './character.mjs';
+import Character from './character';
 
 export class Bowman extends Character {
   constructor(name) {
