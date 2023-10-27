@@ -1,1 +1,1 @@
-import './character.mjs';
+import './childClasses.mjs';

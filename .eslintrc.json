@@ -13,7 +13,10 @@
         "import/extensions": [
             "error",
             "ignorePackages"
+        ],
+        "max-classes-per-file": [   // Только для данной задачи - устанавливаю число допустимых классов в одном модуле
+            "error",
+            { "ignoreExpressions": true, "max": 6 }
         ]
-    
     }
 }
