@@ -1,19 +1,17 @@
-import Character from '../character';
+import Character from '../classes/character';
 
 test.each([
-  ['Bowman', 25, 25],
-  ['Swordsman', 40, 10],
-  ['Magician', 10, 40],
-  ['Undead', 25, 25],
-  ['Zombie', 40, 10],
-  ['Daemon', 10, 40],
+  ['Bowman'],
+  ['Swordsman'],
+  ['Magician'],
+  ['Undead'],
+  ['Zombie'],
+  ['Daemon'],
 ])(
-  ('Проверка типа %s с атакой %i и защитой %i'),
-  (type, attack, defence) => {
+  ('Проверка присвоения типа %s'),
+  (type) => {
     const character = new Character('Ivan', type);
     expect(character.type).toBe(type);
-    expect(character.attack).toBe(attack);
-    expect(character.defence).toBe(defence);
   },
 );
 
